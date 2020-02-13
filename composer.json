@@ -1,0 +1,32 @@
+{
+    "name": "eslym/artisan-supervisor",
+    "description": "Simple process supervisor",
+    "type": "library",
+    "require": {
+        "illuminate/support": ">=5 <7",
+        "react/stream": "^1.1",
+        "php": "^7.2",
+        "illuminate/console": ">=5 <7",
+        "react/child-process": "^0.6.1",
+        "react/socket": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eslym",
+            "email": "engshun.lim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eslym\\Laravel\\Supervisor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eslym\\Laravel\\Supervisor\\SupervisorServiceProvider"
+            ]
+        }
+    }
+}
