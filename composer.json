@@ -3,10 +3,10 @@
     "description": "Simple process supervisor",
     "type": "library",
     "require": {
-        "illuminate/support": ">=5 <7",
+        "illuminate/support": ">=5 <8",
         "react/stream": "^1.1",
         "php": "^7.2",
-        "illuminate/console": ">=5 <7",
+        "illuminate/console": ">=5 <8",
         "react/child-process": "^0.6.1",
         "react/socket": "^1.3"
     },
